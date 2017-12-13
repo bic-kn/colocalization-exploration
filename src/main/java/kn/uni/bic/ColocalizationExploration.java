@@ -82,7 +82,7 @@ import sc.fiji.coloc.gadgets.DataContainer;
  * TODO Documentation
  */
 @Plugin(type = Command.class,
-	menuPath = "Plugins>BIC>Colocalization Influences")
+	menuPath = "Plugins>BIC>Colocalization Exploration")
 public class ColocalizationExploration<T extends RealType<T>> implements
 	Command, Cancelable, Interactive
 {
